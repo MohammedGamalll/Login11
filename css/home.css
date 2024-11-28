@@ -1,0 +1,25 @@
+body,nav,div{
+    background-color: #24353F;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+.head ,nav{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.logout{
+    background-color: transparent;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    border: #FFC107 1px solid;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.logout:hover{
+    background-color: #FFC107;
+}

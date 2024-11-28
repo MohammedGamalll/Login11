@@ -1,0 +1,44 @@
+body,div{
+    background-color: #24353F;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+h1{
+    color:aqua ;
+
+    margin-top: 10px;
+}
+
+.head {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+div a{
+    transition: all 0.3s;
+}
+
+div a:hover{
+    color: rgb(70, 70, 253) !important;
+}
+
+input::placeholder{
+    color: grey !important;
+}
+
+.login{
+    background-color: transparent;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    border: aqua 1px solid;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login:hover{
+    background-color: aqua;
+}
