@@ -4,9 +4,13 @@ var username = document.getElementById('username');
 
 username.innerHTML = currentUser.name;
 
-
+if (localStorage.getItem('loggedIn') !== 'true') {
+    window.location.href = 'index.html';
+    alert('You must be logged in to access this page');
+}
 
 function logOut() {
+    localStorage.removeItem('loggedIn');
     window.location.href = "index.html";
 }
 

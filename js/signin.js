@@ -11,6 +11,7 @@ function signIn() {
             alert("Sign in successful");
             localStorage.setItem("currentUser", JSON.stringify(users[i]));
             window.location.href = "home.html"
+            localStorage.setItem('loggedIn', 'true');
             return;
         }
     }
