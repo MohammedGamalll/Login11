@@ -23,6 +23,7 @@ function signUp() {
     localStorage.setItem("users", JSON.stringify(users));
     alert("Sign up successful");
     clearForm();
+    
 }
 function checkEmail() {
     var email = document.getElementById("email").value;
