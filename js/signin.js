@@ -10,8 +10,8 @@ function signIn() {
         if (users[i].email === emailValue && users[i].password === passwordValue) {
             alert("Sign in successful");
             localStorage.setItem("currentUser", JSON.stringify(users[i]));
-            window.location.href = "home.html"
             localStorage.setItem('loggedIn', 'true');
+            window.location.href = "home.html"
             return;
         }
     }

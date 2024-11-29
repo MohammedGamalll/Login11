@@ -10,7 +10,7 @@ if (localStorage.getItem('loggedIn') !== 'true') {
 }
 
 function logOut() {
-    localStorage.removeItem('loggedIn');
+    localStorage.setItem('loggedIn','false');
     window.location.href = "index.html";
 }
 
